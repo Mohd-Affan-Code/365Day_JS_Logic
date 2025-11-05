@@ -65,8 +65,6 @@ console.log(i);
 
 **Find the sum of all odd numbers up to N**
 
-// **Find the sum of all odd numbers up to N**
-
 let n = 10;
 let odd = 0;
 for (let i = 1; i <= n; i++) {
@@ -76,3 +74,17 @@ odd += i;
 }
 
 console.log(odd);
+
+4. **Print only the numbers that are both even and perfect squares**
+
+
+
+
+
+5. **Print the cubes of numbers from 1 to N**
+
+let N = 5;
+
+for (let i = 1; i <= N; i++) {
+console.log(i \*_ 3); // ya i _ i \* i
+}
