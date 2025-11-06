@@ -77,14 +77,20 @@ console.log(odd);
 
 4. **Print only the numbers that are both even and perfect squares**
 
+let N = 100;
 
-
-
+for (let i = 1; i <= N; i++) {
+// check perfect square
+let sqrt = Math.sqrt(i);
+if (sqrt === Math.floor(sqrt) && i % 2 === 0) {
+console.log(i);
+}
+}
 
 5. **Print the cubes of numbers from 1 to N**
 
 let N = 5;
 
 for (let i = 1; i <= N; i++) {
-console.log(i \*_ 3); // ya i _ i \* i
+console.log(i \*\* 3);
 }
