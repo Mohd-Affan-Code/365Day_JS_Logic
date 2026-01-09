@@ -3,10 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Day 1</title>
+    <title>Document</title>
   </head>
   <body>
-    <script src="script.js
-    "></script>
+    <h1>Day 1 on 365 days of coding problem</h1>
+    <script>
+      // Reverse a string without using built-in reverse method.
+
+      function reverseString(str) {
+        let revers = "";
+        for (let i = str.length - 1; i >= 0; i--) {
+          revers += str[i];
+        }
+        return revers;
+      }
+
+      const result = reverseString("affan");
+      console.log(result);
+    </script>
   </body>
 </html>
