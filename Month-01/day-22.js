@@ -1,1 +1,13 @@
 // - **Day 21:** Find the largest element in an array
+
+let arr = [12, 45, 7, 89, 23];
+
+let largest = arr[0];
+
+for (let i = 1; i < arr.length; i++) {
+  if (arr[i] > largest) {
+    largest = arr[i];
+  }
+}
+
+console.log("Largest element is:", largest);
